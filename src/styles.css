@@ -1,0 +1,13 @@
+body {
+  background-color: #7FDBFF;
+  text-align: center;
+}
+
+.userInput {
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.results {
+  display: none;
+}

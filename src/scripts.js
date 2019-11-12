@@ -1,3 +1,5 @@
+import './bootstrap.css';
+import './styles.css';
 import { pingPong } from './ping-pong';
 
 $(document).ready(function() {
@@ -8,5 +10,6 @@ $(document).ready(function() {
     output.forEach(function(element) {
       $('#solution').append("<li>" + element + "</li>");
     });
+    $('.results').fadeIn();
   });
 });
